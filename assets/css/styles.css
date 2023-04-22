@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -250px ;
+    overflow: hidden;
+}
+.head{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+#weather-head{
+    font-size: 30px;
+    margin-top: 340px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    line-height: 1.1;
+    align-items: center;
+    gap: 40px;
+}
+.weather-type{
+    text-align: center;
+    display: flex;
+
+}
+#place{
+    text-transform: capitalize;
+}
+.right{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.295);
+    width: 500px;
+    height: 100vh;
+    overflow: hidden;
+    backdrop-filter: blur(20px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.left{
+    color: white;
+}
+.main-details{
+    text-align: left;
+    width: 80%;
+    margin-left: 10px;
+    line-height: 3;
+    margin-top: 50px;
+    color: white;
+}
+.main-details hr{
+    margin-block: 20px;
+}
+#search{
+    border: 0;
+    outline: 0;
+    font-size: 20px;
+    padding: 5px;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+}
+.right div form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+#search::placeholder{
+    color: rgba(255, 255, 255, 0.438);
+}
+.right div form div{
+    width:  40px;
+    height: 40px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right div form input{
+    color: white;
+}
+.weather-type{
+    display: flex;
+    flex-direction: column;
+}
+.mobile-search i{
+    color: white;
+    display: none;
+}
+.mobile-search-inverse i{
+    color: white;
+    display: none;
+}

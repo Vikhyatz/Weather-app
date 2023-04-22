@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/60734bdbf3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <title>WeatherApp</title>
+</head>
+<body onload="load()">
+    <main>
+        <div class="left">
+            <div class="head">
+                <h2>Weather App</h2>
+            </div>
+            <div id="weather-head">
+
+                <!-- <div id="weather-place">
+                    <h1 id="place"></h1>
+                    <h3 id="temp"></h3>
+                </div>
+                <div class="weather-type">
+                    <i class="fa-solid fa-cloud-rain"></i>
+                    <span id="type"></span>
+                </div> -->
+                
+            </div>
+        </div>
+        <div id="mobile-search" class="mobile-search">
+            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+        </div>
+        <div id="right" class="right">
+            <div id="mobile-search-inverse" class="mobile-search-inverse">
+                <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+            </div>
+            <div>
+                <form action="">
+                    <input id="search" placeholder="London" autocomplete="off">
+                    <div id="searcher">
+                        <i data-feather="search"></i>
+                    </div>
+                </form>
+            </div>
+            <div class="main-details">
+                <span>Weather Details</span>
+                <hr>
+                <div id="result">
+                    <!-- <p>City = -- </p>
+                    <p>Temperature = -- </p>
+                    <p>Feels like = -- </p>
+                    <p>Cloud-pct = -- </p>
+                    <p>Humidity = -- </p>
+                    <p>Wind speed = -- </p> -->
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="assets/app.js"></script>
+<script src="path/to/dist/feather.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+<script>
+    feather.replace()
+</script>
+</html>
